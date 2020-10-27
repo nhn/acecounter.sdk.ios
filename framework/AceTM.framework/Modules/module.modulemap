@@ -1,0 +1,6 @@
+framework module AceTM {
+  umbrella header "AceTM.h"
+
+  export *
+  module * { export * }
+}
