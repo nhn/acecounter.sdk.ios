@@ -1,0 +1,6 @@
+framework module ACE {
+  umbrella header "ACE.h"
+
+  export *
+  module * { export * }
+}
