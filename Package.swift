@@ -14,5 +14,5 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ACE", 
-            path: "ACE.xcframework")
+            path: "./framework/ACE.xcframework")
     ])
