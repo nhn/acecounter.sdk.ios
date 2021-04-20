@@ -1,8 +1,10 @@
+// swift-tools-version:5.0
 import PackageDescription
+
 let package = Package(
     name: "ACE",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
