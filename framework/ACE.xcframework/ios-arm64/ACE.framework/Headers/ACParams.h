@@ -24,10 +24,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) ACEGender gender;
 @property (nonatomic, strong) NSString * _Nullable keyword;
 @property (nonatomic, strong) NSString * _Nullable linkName;
+@property (nonatomic, strong) NSString * _Nullable memberId;
 @property (nonatomic, assign) IACMaritalStatus meritalStatus;
 @property (nonatomic, strong) NSString * _Nullable orderNumber;
 @property (nonatomic, strong) NSString * _Nullable payMethodName;
 @property (nonatomic, strong) NSString * _Nullable productCategoryName;
+@property (nonatomic, strong) NSString * _Nullable productId;
 @property (nonatomic, strong) NSString * _Nullable productName;
 @property (nonatomic, strong) NSString * _Nullable productPrice;
 @property (nonatomic, strong) NSMutableArray<ACProduct *> * _Nullable products;

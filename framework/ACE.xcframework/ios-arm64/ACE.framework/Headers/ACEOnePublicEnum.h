@@ -27,7 +27,8 @@ typedef NS_ENUM(NSInteger, IACParamsType) {
     IACParamsType_TrackEvent,
     
     IACParamsType_AppearProduct,
-    IACParamsType_Buy,
+    IACParamsType_BuyDone,
+    IACParamsType_BuyCancel,
     
     IACParamsType_Leave,
     IACParamsType_Login,
