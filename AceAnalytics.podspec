@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AceAnalytics'
-  s.version          = '2.8.1'
+  s.version          = '2.8.2'
   s.summary          = 'NHN DATA iOS ACE COUNTER Module'
 
 s.homepage         = 'https://github.com/nhn/acecounter.sdk.ios'
@@ -9,7 +9,7 @@ s.author           = 'NHN DATA Corp.'
 s.source           = { :http => 'https://github.com/nhn/acecounter.sdk.ios/archive/refs/tags/2.8.1.zip' }
 
 s.platform     = :ios
-s.ios.deployment_target = '13.0'
+s.ios.deployment_target = '14.0'
 s.requires_arc = true
 
 s.ios.vendored_frameworks = 'acecounter.sdk.ios-2.8.1/framework/ACE.xcframework'
