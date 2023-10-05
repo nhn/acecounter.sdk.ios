@@ -17,6 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readonly) BOOL enablePrivacyPolicy;
 @property (nonatomic, assign, readonly) BOOL isDebug;
 @property (nonatomic, assign, readonly) ACEPlatform platform;
+@property (nonatomic, assign, readonly) BOOL disableToCollectAdvertisingIdentifier;
+
+- (instancetype _Nonnull)init:(NSString * _Nullable)key
+          enablePrivacyPolicy:(BOOL)enablePrivacyPolicy
+                      isDebug:(BOOL)isDebug
+disableToCollectAdvertisingIdentifier:(BOOL)disableToCollectAdvertisingIdentifier;
 
 - (instancetype _Nonnull)init:(NSString * _Nullable)key
           enablePrivacyPolicy:(BOOL)enablePrivacyPolicy
