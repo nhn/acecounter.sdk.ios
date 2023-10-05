@@ -18,6 +18,7 @@
 
 @optional
 @property (nonatomic, assign) BOOL enablePrivacyPolicy;
+@property (nonatomic, assign) BOOL disableToCollectAdvertisingIdentifier;
 
 @end
 

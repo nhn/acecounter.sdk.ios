@@ -8,6 +8,7 @@
 @property (nonatomic, assign, readonly) BOOL isDebug;
 @property (nonatomic, strong, readonly, nullable) NSString *key;
 @property (nonatomic, assign, readonly) ACEPlatform platform;
+@property (nonatomic, assign, readonly) BOOL disableToCollectAdvertisingIdentifier;
 
 - (instancetype _Nonnull)initWithBuilderForOne:(BuilderForOne * _Nonnull)builder;
 + (instancetype _Nonnull)build:(ACEPlatform)platform

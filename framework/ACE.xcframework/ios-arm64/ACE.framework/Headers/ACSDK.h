@@ -44,7 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
 //+ (void)sendLNCWithNSExceptionWithDebugInfo:(NSString * _Nullable)msg;
 
 // idfa
-+ (void)setAdvertisingIdentifier:(NSString * _Nullable)advertisingIdentifier;
++ (void)setAdvertisingIdentifier:(NSString * _Nullable)advertisingIdentifier
+    isAdvertisingTrackingEnabled:(BOOL)isAdvertisingTrackingEnabled;
 
 // sdk status
 + (BOOL)isEnableSDK;

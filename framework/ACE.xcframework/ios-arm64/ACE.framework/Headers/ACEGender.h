@@ -4,8 +4,8 @@
 #define ACEGender_h
 
 typedef NS_ENUM(NSInteger, ACEGender) {
-    UNKNOWN,
-    MAN,
-    WOMAN
+  UNKNOWN,
+  MAN,
+  WOMAN
 };
 #endif

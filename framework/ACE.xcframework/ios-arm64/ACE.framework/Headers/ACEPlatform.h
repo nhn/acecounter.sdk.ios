@@ -10,7 +10,7 @@
 #define ACEPlatform_h
 
 typedef NS_ENUM(NSInteger, ACEPlatform) {
-    ACOne
+  ACOne
 };
 
 #endif /* ACEPlatform_h */
