@@ -9,6 +9,7 @@ s.author           = 'NHN DATA Corp.'
 s.source           = { :http => 'https://github.com/nhn/acecounter.sdk.ios/archive/refs/tags/2.8.1.zip' }
 
 s.platform     = :ios
+s.ios.deployment_target = '13.0'
 s.requires_arc = true
 
 s.ios.vendored_frameworks = 'acecounter.sdk.ios-2.8.1/framework/ACE.xcframework'
